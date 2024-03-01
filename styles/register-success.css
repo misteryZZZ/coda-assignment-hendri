@@ -1,0 +1,17 @@
+/* Complete Checkout */
+.register-success .img-fluid{
+    max-width: 66%;
+    height: auto;
+}
+
+.register-success .btn-top-up{
+    padding: 0.75rem 1rem;
+    background-color: #ADFF2F;
+}
+
+@media (min-width:768px){
+.register-success .button-group{
+    width: 170px;
+}
+}
+/*  */

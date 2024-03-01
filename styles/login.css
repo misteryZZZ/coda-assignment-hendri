@@ -1,0 +1,70 @@
+/* login */
+.login {
+    width: 100%;
+} 
+
+.login .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.login .poster{
+    background-color: #2b0433;
+    padding-bottom: 12.2rem;
+    color: #fff;
+    
+}
+
+.login input[type="password"],
+.login input[type="email"]{
+    border: 1px solid #2b0433;
+    padding: 0.75rem 1.625rem;
+    color: #1d394a;
+}
+
+.login input[type="password"]:focus-within,
+.login input[type="email"]:focus-within{
+    color: #1d394a;
+}
+
+.login input[type="password"]::placeholder,
+.login input[type="email"]::placeholder{
+    color: #E7EAF5;
+}
+
+.login .btn-login{
+    padding: 0.75rem;
+    background-color: #2b0433;
+    color: #fff;
+}
+
+.login .btn-register{
+    padding: 0.75rem;
+    background-color: #2b0433;
+}
+
+
+.login .button-group{
+    width: 100%;
+}
+
+@media (min-width: 1281px){
+    .login .container,
+    .login input[type="password"],
+    .login input[type="email"]{
+        max-width: 437px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 414px){
+    .login .container{
+        max-width: 437px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+}
+
+/*  */

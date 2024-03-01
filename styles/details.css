@@ -1,0 +1,79 @@
+.detail .img-fluid{
+    border-radius: 1rem;
+}
+
+.detail .form {
+    display: flex;
+    justify-content: center;
+}
+
+.detail .card-img {
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    
+}
+
+.detail .detail-card{
+    transition: all 0.1s linear;
+    background-color: #E7EAF5;
+    border-radius: 1.625rem;
+    padding: 1.875rem;
+    cursor: pointer;
+    width: 200px;
+    height: 170px;
+}
+
+.detail input[type="text"]:focus-within{
+    color: #1d394a;
+}
+
+.detail input[type="text"]::placeholder{
+    color: #CCD0DD;
+}
+
+.detail input[type="radio"]:checked+.detail-card{
+    border: 2px solid #ADFF2F;
+    background-color: rgba(0, 186, 255, 0.05);
+}
+
+.detail .detail-card #icon-check{
+    transition: all 0.1s linear;
+    opacity: 0;
+}
+
+.detail input[type="radio"]:checked+.detail-card #icon-check{
+    opacity: 1;
+}
+
+.detail .button-sub {
+    background-color: #ADFF2F;
+    padding: 0.75rem 3rem;
+    font-size: 18px;
+    border: 0;
+ }
+
+@media (max-width: 768px) {
+    .detail .detail-card{
+        transition: all 0.1s linear;
+        background-color: #E7EAF5;
+        border-radius: 1.625rem;
+        cursor: pointer;
+        width: 180px;
+        height: 170px;
+    }
+    .detail .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 767px) and (min-width:414px){
+    .detail .form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
